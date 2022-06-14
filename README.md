@@ -2,9 +2,9 @@
 
 This repo is a Test-API for the Pareva Flashtool.
 It runs on the Flask Webframework and has three endpoints:
-- GET "/api/v1/<device>/AllVersions", which returns all available FW-Versions of a specific device
+- GET "/api/v1/```device```/AllVersions", which returns all available FW-Versions of a specific device
 - GET "/api/v1/AllDevices", which returns a list of all available devices
-- GET "/api/v1/<device>/<version>/download", which downloads a specific FW-Version of a specific device
+- GET "/api/v1/```device```/```version```/download", which downloads a specific FW-Version of a specific device
   
 It runs on localhost as its just a test API.
 
